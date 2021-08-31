@@ -3,8 +3,9 @@
 sum = []
 # p sum.class
 sum << gets.chomp
-p sum.class
+#p sum.class
 
-sss = sum.map { |x| x.sum.to_i }
+value = sum.each { |x| x.to_i }
+#p sss.class
 
-p sss
+p value.sum
