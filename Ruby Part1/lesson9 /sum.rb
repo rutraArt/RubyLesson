@@ -1,9 +1,11 @@
+# frozen_string_literal: true
+
 print 'ВВедите пожалуйста последовательность чисел через пробел: '
 
 numbers = gets.split.map(&:to_f)
 
 def sum(number)
   number.sum
-end 
+end
 
 puts "Сумма чисел #{sum(numbers)}"
