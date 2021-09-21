@@ -11,4 +11,4 @@ loop do
   colors << value.split
 end
 
-puts colors
+p colors.sort.uniq
