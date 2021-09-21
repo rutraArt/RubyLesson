@@ -11,4 +11,6 @@ loop do
   colors << value.split
 end
 
+# Не стабильное решение.
+
 p colors.sort.uniq
