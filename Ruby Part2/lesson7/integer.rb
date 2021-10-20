@@ -1,21 +1,23 @@
+# frozen_string_literal: true
+
 class Integer
   K = 1024
   def kilobytes
-  	self * K
+    self * K
   end
 
   def megabytes
-  	kilobytes * K
+    kilobytes * K
   end
 
   def gigabytes
-  	megabytes * K
+    megabytes * K
   end
 
   def terabytes
-  	gigabytes * K
-  end 
-end 
+    gigabytes * K
+  end
+end
 
 puts 1.kilobytes
 puts 1.megabytes
