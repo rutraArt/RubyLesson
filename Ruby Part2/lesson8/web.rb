@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class User
   attr_accessor :name, :last, :middle, :email
 
@@ -16,8 +18,11 @@ class User
 end
 
 class Visitor < User; end
+
 class Autor < User; end
+
 class Administrator < User; end
+
 class Moderator < User; end
 
 user = Moderator.new do |value|
