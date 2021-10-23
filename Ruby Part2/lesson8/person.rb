@@ -8,6 +8,7 @@ class Person
     @last = last
     @middle = middle
 
+    # raise 'Нельзя создать объект этого класса!' if self.class == Person
     raise 'Нельзя создать объект этого класса!' if instance_of?(Person)
   end
 end
